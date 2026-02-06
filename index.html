@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/db0f5f9c88.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+     <div class="container">
+         <div class="test">
+            <img src="my logo.jpeg" class="logo">
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+         </div>
+            <div class="header-text">
+                <p>MERN Stack Developer</p>
+                <h1>Hi, I'm <span>Zaka Ullah</span> <br>From Pakistan</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------About------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="resume.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a passionate MERN Stack Developer with expertise in building modern web applications using MongoDB, Express.js, React.js, and Node.js. I have a strong foundation in full-stack development and enjoy solving complex problems through clean, efficient code.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Development</span><br>Creating responsive and interactive user interfaces using React.js and modern JavaScript frameworks.</li>
+                            <li><span>Backend Development</span><br>Developing robust server-side applications using Node.js and Express.js.</li>
+                            <li><span>Database Design</span><br>Designing and managing databases using MongoDB and SQL-based systems.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Drag sense technology</span><br>3 months internship as a frontend developer.</li>
+                            <li><span>Dev Sum technology</span><br>3 months internship as a backend developer.</li>
+                            <li><span>Arch technology</span><br>Currently on going 2 months internship as a full-stack Web developer.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>Matriculation from Government Heigher secondary School</li>
+                            <li><span>2024</span><br>Intermediate from Government College</li>
+                            <li><span>2026</span><br>On going BS in Computer Science 4th semester</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------Services-------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div class="services-col-1">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Building responsive and dynamic websites using the latest technologies to ensure optimal performance and user experience.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div class="services-col-1">
+                    <i class="fa-solid fa-server"></i>
+                    <h2>API Development</h2>
+                    <p>Creating robust and scalable APIs to facilitate seamless communication between frontend and backend systems.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div class="services-col-1">
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database Management</h2>
+                    <p>Designing and managing databases to ensure efficient data storage, retrieval, and security for web applications.</p>
+                    <a href="#">learn more</a>
+                </div>
+        </div>
+    </div>
+    <!-- -------------------portfolio------------------- -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.jpeg">
+                    <div class="layer">
+                         <h3>Truck Dispatch Web Application</h3>
+                        <p>This website streamlines logistics operations by providing real-time tracking, route management, and driver coordination</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.jpeg">
+                    <div class="layer">
+                        <h3>DevSum Company Website</h3>
+                        <p>This is Devsum’s official website, building a modern, responsive frontend with React.js.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+     </div>
+     <!-- -------------------Contact-------------------  -->
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>iamzakaullah@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+92 329-8781072 / +92 336-2395533</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/zaka1062490?igsh=bTNyeXkzdWxjbXN1"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/zaka-ullah-8009433a7"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Zakaullah1234567"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="My CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                
+                <div class="contact-right">
+                    <form name="YOUR_FORM_NAME">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea rows="5" name="Message" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>Copyright &copy; portfolio. Made with <i class="fa-solid fa-heart"></i> by Zaka Ullah.</p>
+        </div>
+      </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+            } 
+
+        var MenuItems = document.getElementById("MenuItems");
+        function openmenu(){
+            MenuItems.style.right = "0";
+        }
+        function closemenu(){
+            MenuItems.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzlfD3iec5HRuOU-_7V1-swwowp_I2P1HUJFTehmZIJk7zxUnpIR5QkPwuemUZNMfOe/exec'
+        const form = document.forms['YOUR_FORM_NAME']
+        const msg = document.getElementById("msg");    
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => response.json())
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully";
+                    setTimeout(function(){
+                        msg.innerHTML = "";
+                    }, 5000);
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
